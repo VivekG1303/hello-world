@@ -1,0 +1,111 @@
+#warning, #warning1 {
+    color: #ff0000;
+}
+
+#success {
+    color: #28a745;
+}
+
+.form {
+    display: flex;
+    margin: auto;
+    background-color: #ffffff;
+    padding: 10px 20px;
+    -webkit-box-shadow: 0px 0px 16px -1px rgba(0,0,0,0.77);
+    -moz-box-shadow: 0px 0px 16px -1px rgba(0,0,0,0.77);
+    box-shadow: 0px 0px 16px -1px rgba(0,0,0,0.77);
+}
+
+.background {
+    background: #4cacff;
+    height: 100vh;
+    display: flex;
+    -webkit-box-shadow: 0px 0px 23px -3px rgba(66,66,66,1);
+    -moz-box-shadow: 0px 0px 23px -3px rgba(66,66,66,1);
+    box-shadow: 0px 0px 23px -3px rgba(66,66,66,1);
+}
+
+.form-box {
+    padding: 10px 25px;
+    width: 100%;
+}
+
+.register-button, .student-list-button, .course-register-button, .course-list-button {
+    background-color: #002338;
+    border: none;
+}
+
+.register-button:hover, .student-list-button:hover, .course-register-button:hover, .course-list-button:hover {
+    background-color: #FF6347;
+}
+
+.navbar-background {
+    background-color: #002338;
+    border: none;
+}
+
+.active-button {
+    background-color: #4cacff;
+}
+
+ul.nav.navbar-nav.navigation-button a {
+    color: #ffffff;
+}
+
+#record {
+    display: none;
+}
+
+#record-show {
+    margin-top: 10px;
+}
+
+#record-show a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.record-box {
+    margin: 20px;
+}
+
+.mobile-menu {
+    display: none;
+    background-color: #002338;
+}
+
+.mobile-menu button i {
+    color: #ffffff;
+}
+
+.navigation-menu {
+    display: block;
+}
+
+@media only screen and (max-width: 776px) {
+    .navigation-menu {
+        display: none;
+    }
+    .mobile-menu {
+        display: block;
+    }
+}
+
+.view {
+    background-color: #28a745;
+    border: none;
+}
+
+.delete, .course-delete {
+    background-color: #ff6060;
+    border: none;
+}
+
+.edit, .course-edit {
+    background-color: #002338;
+    border: none;
+}
+
+#fName-error, #lName-error, #email-error, #old_course-error, #mobilenumber-error {
+    color: #ff0000;
+}
