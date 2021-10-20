@@ -1,5 +1,4 @@
 <!-- Navbar Section -->
-
     <nav class="navbar navbar-inverse navbar-fixed-top navbar-background">
         <!-- Mobile Menu -->
         <div class="navbar-header mobile-menu">
