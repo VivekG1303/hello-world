@@ -109,3 +109,7 @@ ul.nav.navbar-nav.navigation-button a {
 #fName-error, #lName-error, #email-error, #old_course-error, #mobilenumber-error {
     color: #ff0000;
 }
+
+.testing {
+    background-color: #002338;
+}
